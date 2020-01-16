@@ -69,7 +69,7 @@ client.use(new Mixer.OAuthProvider(client, {
              socket.call('msg', [`@${data.user_name} song request has been sent`]);
              var i = data.message.message[0].data.substr(6);
              songRequests.push(i);
-             console.log(i + `song request sent by ${data.user_name}`);
+             console.log(i + ` song request sent by ${data.user_name}`);
          }
      });
 
