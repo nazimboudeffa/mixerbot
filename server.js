@@ -58,7 +58,7 @@ client.use(new Mixer.OAuthProvider(client, {
      // React to our !pong command
      socket.on('ChatMessage', data => {
          if (data.message.message[0].data.toLowerCase().startsWith('!help')) {
-             socket.call('msg', [`@${data.user_name} Commands : !ping`]);
+             socket.call('msg', [`@${data.user_name} Commands : !ping, !song dQw4w9WgXcQ`]);
              console.log(`Ponged ${data.user_name}`);
          }
          if (data.message.message[0].data.toLowerCase().startsWith('!ping')) {
