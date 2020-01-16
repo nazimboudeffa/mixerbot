@@ -1,0 +1,23 @@
+{
+  "name": "mixerchatbot",
+  "version": "1.0.0",
+  "description": "A ChatBot for Mixer",
+  "main": "server.js",
+  "dependencies": {
+    "@mixer/client-node": "^3.5.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "ws": "^6.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "chat",
+    "bot"
+  ],
+  "author": "",
+  "license": "ISC"
+}
