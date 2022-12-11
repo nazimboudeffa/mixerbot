@@ -6,7 +6,7 @@
   "dependencies": {
     "@mixer/client-node": "^3.5.0",
     "ejs": "^2.6.1",
-    "express": "^4.16.3",
+    "express": "^4.17.3",
     "ws": "^6.0.0"
   },
   "devDependencies": {},
